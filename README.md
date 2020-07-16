@@ -1,3 +1,5 @@
+![Docker Actions](https://github.com/danielschnetler/write-docker-actions/workflows/Docker%20Actions/badge.svg)
+
 # Welcome to your course 🎉
 
 ### Getting started
