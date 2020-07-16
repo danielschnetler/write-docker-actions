@@ -2,7 +2,6 @@ package main
 
 import "fmt"
 func main() {
-
 	// Access Inputs as environment vars
 	firstGreeting := os.Getenv("INPUT_FIRSTGREETING")
 	secondGreeting := os.Getenv("INPUT_SECONDGREETING")
@@ -16,6 +15,5 @@ func main() {
 	if thirdGreeting != "" {
 		    fmt.Println("Hello " + thirdGreeting)
 		        }
-
-		}
 	}
+}
