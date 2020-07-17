@@ -20,3 +20,11 @@ jobs:
 
       - name: meow
         uses: ./.github/actions/cat-facts
+        id: cat
+
+      - name: create-issue
+        uses: ./.github/actions/issue-maker
+        with:
+          repoToken: ${{secrets.github_token}}
+          catFact: ${{steps.cat.outputs.fact}}
+          issueTitle: "A cat fact for you"
